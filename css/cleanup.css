@@ -1,1 +1,32 @@
-/* write your override styles here */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body {
+    font-family:sans-serif;
+    line-height:1.6;
+    background:#f8f8f8;
+    color:#333
+}
+img,video,canvas,svg{
+    max-width:100%;
+    height:auto;
+    display:block
+}
+button,input,textarea {
+    font:inherit;
+    border:none;
+    outline:none
+}
+a {
+    text-decoration:none;
+    color:inherit
+}
+ul,ol {
+    list-style:none
+}
+table {
+    border-collapse:collapse;
+    width:100%
+}
